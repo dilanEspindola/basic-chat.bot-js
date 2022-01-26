@@ -46,7 +46,7 @@ client.on("auth_failure", (msg) => {
 
 client.on("message", async (msg) => {
   if (msg.body === "hola" || msg.body === "Hola") {
-    client.sendMessage(msg.from, "que quiere puta?");
+    client.sendMessage(msg.from, "Dime, puedo hacer algo por tí :D?");
   }
   if (msg.body === "!xd") {
     for (let i = 1; i < 250; i++) {
